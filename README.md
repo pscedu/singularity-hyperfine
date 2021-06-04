@@ -1,4 +1,7 @@
 # singularity-hyperfine
+
+![Example](https://camo.githubusercontent.com/88a0cb35f42e02e28b0433d4b5e0029e52e723d8feb8df753e1ed06a5161db56/68747470733a2f2f692e696d6775722e636f6d2f7a31394f5978452e676966)
+
 Singularity recipe for [hyperfine](https://github.com/sharkdp/hyperfine).
 
 ## Installing the container on Bridges 2
