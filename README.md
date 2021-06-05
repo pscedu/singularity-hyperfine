@@ -12,7 +12,7 @@ Copy the
 
 to `/opt/packages/hyperfine/1.11.0`.
 
-Copy the file `modulefile.lua` to `/opt/modules/hyperfine` as `1.11.0`.
+Copy the file `modulefile.lua` to `/opt/modulefiles/hyperfine` as `1.11.0`.
 
 ## Building the image using the recipe
 
