@@ -4,6 +4,7 @@
 -- "URL: https://www.psc.edu/resources/software"
 -- "Category: Other"
 -- "Description: A command-line benchmarking tool."
+-- "Keywords: singularity utilities"
 
 whatis("Name: hyperfine")
 whatis("Version: 1.11.0")
