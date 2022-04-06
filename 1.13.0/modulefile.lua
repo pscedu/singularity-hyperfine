@@ -13,8 +13,6 @@ whatis("URL: https://www.psc.edu/resources/software")
 whatis("Description: A command-line benchmarking tool.")
 
 help([[
-Description
------------
 A command-line benchmarking tool.
 
 To load the module type
