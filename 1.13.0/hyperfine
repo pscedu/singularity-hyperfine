@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VERSION=1.11.0
+VERSION=1.13.0
 PACKAGE=hyperfine
 TOOL=hyperfine
 DIRECTORY=$(dirname $0)
