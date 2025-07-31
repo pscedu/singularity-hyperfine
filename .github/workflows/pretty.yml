@@ -5,6 +5,29 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
+    #start of new code to try to fix error
+    - name: Install Apptainer
+      run: |
+      sudo apt-get update && sudo apt-get install -y \
+        build-essential \
+        libseccomp-dev \
+        pkg-config \
+        squashfs-tools \
+        cryptsetup \
+        curl \
+        git \
+        uuid-dev \
+        libgpgme-dev \
+        libssl-dev \
+        libglib2.0-dev \
+        libseccomp-dev \
+        wget \
+        runc
+
+        export VERSION=1.1.6  # or latest release
+        wget https://github.com/apptainer/apptainer/releases/download/v${VERSION}/apptainer_${VERSION}_amd64.deb
+        sudo dpkg -i apptainer_${VERSION}_amd64.deb
+#end of new code
     - name: Check out code
       uses: actions/checkout@v2
       
